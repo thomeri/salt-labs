@@ -1,0 +1,86 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "saltBootcamp server",
+    "description": "React - Salt Instructors & Developers",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:3001",
+  "basePath": "/api",
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/salties": {
+      "get": {
+          "tags": [
+            "Salties"
+          ],
+          "summary": "Get all salties",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        },
+        "post": {
+          "summary": "Add new developer",
+          "tags": [
+            "Salties"
+          ],
+          "parameters": [
+            {
+              "name": "developer",
+              "in": "body",
+              "description": "developer with new values of properties",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {"type":"string"},
+                  "bootcamp": {"type":"string"}
+                }
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            },
+            "400": {"description": "Bad Request"}
+          }
+        }
+    },
+    "/salties/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "ID of developer that we want to find",
+          "type": "string"
+        }
+      ],
+      "delete": {
+        "summary": "Delete developer with given ID",
+        "tags": [
+          "Salties"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Developer with the provided Id not found"
+          },
+          "400": {
+            "description": "Can only remove salties with role of developer"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/bin/Debug/net6.0/program
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/bin/Debug/net6.0/program.deps.json
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/bin/Debug/net6.0/program.runtimeconfig.json
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/bin/Debug/net6.0/program.dll
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/bin/Debug/net6.0/program.pdb
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/obj/Debug/net6.0/program.csproj.AssemblyReference.cache
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/obj/Debug/net6.0/program.GeneratedMSBuildEditorConfig.editorconfig
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/obj/Debug/net6.0/program.AssemblyInfoInputs.cache
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/obj/Debug/net6.0/program.AssemblyInfo.cs
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/obj/Debug/net6.0/program.csproj.CoreCompileInputs.cache
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/obj/Debug/net6.0/program.dll
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/obj/Debug/net6.0/refint/program.dll
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/obj/Debug/net6.0/program.pdb
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/obj/Debug/net6.0/program.genruntimeconfig.cache
+/Users/salt-dev/Desktop/salt/WeekAssigns/Program/program/obj/Debug/net6.0/ref/program.dll
